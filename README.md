@@ -1,6 +1,6 @@
 # Bharat
 
-# 🚀 Welcome to my Bharat Internship 🐍 Repository!
+# 🚀 Welcome to my Bharat Internship Repository!
 
 ## Weather Forecast App 🌤️
 
