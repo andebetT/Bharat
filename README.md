@@ -3,8 +3,8 @@
 
 # Weather Forecast App 🌤️
 
-Stay ahead of the weather with our comprehensive Weather Forecast App, developed during my internship at Bharat as a web developer using Python programming language. This app provides up-to-date weather information and forecasts for any location worldwide, helping you plan your day with confidence.
-#BharatInternship #PythonDeveloper
+Stay ahead of the weather with our comprehensive Weather Forecast App, developed during my internship at Bharat as a web developer using the Python programming language. This app provides up-to-date weather information and forecasts for any location worldwide, helping you plan your day with confidence.
+#BharatInternship #PythonDeveloper #WeatherAPI
 
 ## Features 💫
 
