@@ -10,7 +10,6 @@ Stay ahead of the weather with our comprehensive Weather Forecast App, developed
 ## Features 💫
 
 - **Real-time Weather Data**: Retrieve current temperature, humidity, wind speed, and other critical weather details for your desired location.
-- **Multi-Day Forecasts**: Get a detailed outlook on the weather for the next few days, allowing you to plan ahead.
 - **Unit Conversion**: Switch between Celsius, Fahrenheit, and other units of measurement to suit your preference.
 - **Intuitive User Interface**: Enjoy a clean and user-friendly design that makes weather information easy to access and understand.
 - **Responsive Design**: Access the app seamlessly on any device, whether you're on your desktop, tablet, or mobile phone.
