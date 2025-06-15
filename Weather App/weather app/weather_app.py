@@ -10,22 +10,23 @@ def get_weather(city, unit='imperial'):
         return None
     return response.json()
 
-def display_weather(data):
+def display_weather(data,unit):
     if data:
         weather = data['weather'][0]['main']
         temp = round(data['main']['temp'])
+        unit_symbol = '°F' if unit == 'imperial' else '°C'
         print(f"The weather in {data['name']} is: {weather}")
-        print(f"The temperature in {data['name']} is: {temp}°F")
+        print(f"The temperature in {data['name']} is: {temp} {unit_symbol}")
     else:
         print("No city found. Please try again.")
 
-def main():
+def user_input():
     city = input("Please enter your city: ")
     unit_choice = input("Choose unit (C for Celsius, F for Fahrenheit): ").strip().upper()
     unit = 'metric' if unit_choice == 'C' else 'imperial'
     
     weather_data = get_weather(city, unit)
-    display_weather(weather_data)
+    display_weather(weather_data,unit)
 
 if __name__ == "__main__":
-    main()  # Call the main function to run the program
+    user_input()  # Call the main function to run the program
